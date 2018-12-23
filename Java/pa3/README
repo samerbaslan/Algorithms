@@ -1,0 +1,29 @@
+//Samer Baslan
+//sbaslan
+//CMPS101 Fall2017
+//PA3
+//README
+
+
+
+List.java -- List ADT modified for Objects instead of ints from pa1, implemented using doubly linked lists. Contains constructor, access functions, manipulation procedures, etc.
+
+
+
+Matrix.java -- Matrix ADT implemented as an array of Lists. Contains private Entry class that has column and value fields. Constructor, access functions, manipulation procedures, etc.
+
+
+
+Sparse.java -- Usage: Sparse input output
+		Top level client for Matrix ADT. The file is read into 2 nxn matrices A and B to store NNZ values. The resulting NNZ entries and operations are stored in the output file.
+
+
+ListTest.java -- Test client for List.java
+
+
+MatrixTest.java -- Test client for Matrix.java
+
+
+Makefile -- Complies Sparse.java, Matrix.java, List.java, to create executble Sparse.jar file. Use 'make clean' to remove *.class files and Sparse.jar
+
+README -- This!
