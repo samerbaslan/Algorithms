@@ -1,0 +1,21 @@
+//Samer Baslan
+//sbaslan
+//CMPS101 Fall 2017
+//12-07-2017
+//PA5
+//README -- Contents of submitted files:
+
+
+List.c: Implementation file for List ADT using doubly linked list storing integers as data
+List.h: Header file for List.c
+
+Graph.c: Implementation file for Graph ADT. Has methods DFS(), transpose(), copyGraph()
+Graph.h: Header file for Graph.c
+GraphTest.c: Test client for Graph ADT. Taken from Examples/pa5/GraphClient.c
+
+FindComponents.c: Top level client of Graph ADT that finds the strongly connected components of a graph.
+		  Usage: FindComponents <Infile> <Outfile>
+
+Makefile: Makefile that makes executables FindComponents and GraphTest. Contains clean utility that remove all object files. 
+
+README: Contents of submitted files

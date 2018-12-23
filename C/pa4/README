@@ -1,0 +1,22 @@
+Samer Baslan
+sbaslan
+CMPS101 Fall 2017
+PA4
+
+
+List.c -- ADT implement as doubly linked list. Contains Node class, constructor, access functions, manipulation procedures, and more
+
+List.h -- Header file for List ADT
+
+Graph.c -- ADT implemented as an array of Lists with fields storing color, distance, and parent from the source vertex, the order (number of vertices)of the Graph, size(#edges) of graph, and source in which BFS was called on. Also contains constructors, etc..
+
+Graph.h -- Header file for Graph ADT
+
+GraphTest.c -- Test client for Graph ADT
+
+FindPath.c -- "Usage: FindPath infile outfile"
+	      Top level client for Graph ADT. Takes parameters input file, output file. The input is read into int array, where first line = # of vertices, the next x number of lines until '0 0' make up the edges, and the final Y number of lines finds the shortest path and distance between two vertices
+
+Makefile -- Complies to make FindPath executable. Has clean utility.
+
+README -- This.
